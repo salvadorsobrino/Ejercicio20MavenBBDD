@@ -36,5 +36,6 @@ EN EL EJERCICIO 14 FALTABA EL MENÚ. SE CAMBIÓ Y AHORA ESTA IMPLEMENTADO PARA A
 
 EXTRA: 
 
-Se ha añadido punto 12. Exportar a Pdf 
-En el pdf se ha añadido una imagen
+Se ha añadido 12. Exportar los coches a un fichero PDF 
+En el PDF se ha añadido una imagen
+Se han modificado algunos bucles for por funciones lambda para practicar.

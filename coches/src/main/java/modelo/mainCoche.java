@@ -139,9 +139,9 @@ public class mainCoche {
 			case 8:
 				System.out.println("A continuación se listan todos los coches de la bbdd: ");
 				lista = gc.listar();
-				for (int i = 0; i < lista.size(); i++) {
-					System.out.println(lista.get(i));
-				}
+				lista.forEach(s -> {
+					System.out.println(s);
+				});
 				break;
 			case 9:
 				fin = true;
@@ -183,12 +183,13 @@ public class mainCoche {
 					row.createCell(3).setCellValue(cx.getModelo());
 					row.createCell(4).setCellValue(cx.getKilometros());
 					initRow++;
-					System.out.println("Fichero Excel creado");
+					
 				}
-
-				try (OutputStream fileOut = new FileOutputStream("Fichero excel creado en src/main/resources/coches.xls")) {
+				
+				try (OutputStream fileOut = new FileOutputStream("src/main/resources/coches.xls")) {
 					workbook.write(fileOut);
 					workbook.close();
+					System.out.println("Fichero excel creado en src/main/resources/coches.xls");
 				} catch (FileNotFoundException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -216,11 +217,22 @@ public class mainCoche {
 						cont.showText(titulo);
 						//We start a new line of text with newLineAtOffset method. 
 						//The origin of a page is at the bottom-left corner.
-						for (int i=0;i<lista.size();i++) {
+						/*for (int i=0;i<lista.size();i++) {
 							String line = lista.get(i).toString();
 							cont.newLine();
 							cont.showText(line);
-						}
+						}*/
+						lista.forEach(s -> {
+							String line = s.toString();
+							try {
+								cont.newLine();
+								cont.showText(line);
+							} catch (IOException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+							
+						});
 						cont.endText();
 						String imgFileName = "src/main/resources/teslacar.jpg";
 			            PDImageXObject pdImage = PDImageXObject.createFromFile(imgFileName, doc);
