@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="com.google.gson.GsonBuilder"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Font"/>
+    <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFFont"/>
+    <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFSheet"/>
+    <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFRow"/>
+    <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFCell"/>
+    <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFRichTextString"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.DataFormatter"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
+    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFCell"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.CellType"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Sheet"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Workbook"/>
+    <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFWorkbook"/>
+    <fullyQualifiedTypeName name="org.apache.poi.sl.usermodel.Sheet"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Row"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Cell"/>
+    <fullyQualifiedTypeName name="org.apache.commons.io.output.ByteArrayOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="org.apache.pdfbox.pdmodel.PDDocument"/>
+    <fullyQualifiedTypeName name="org.apache.pdfbox.pdmodel.font.PDType1Font"/>
+    <fullyQualifiedTypeName name="org.apache.pdfbox.pdmodel.PDPage"/>
+    <fullyQualifiedTypeName name="org.apache.pdfbox.pdmodel.PDPageContentStream"/>
+    <fullyQualifiedTypeName name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject"/>
+</qualifiedTypeNameHistroy>
