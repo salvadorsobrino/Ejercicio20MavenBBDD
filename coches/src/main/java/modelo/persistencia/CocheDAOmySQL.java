@@ -128,6 +128,12 @@ public class CocheDAOmySQL implements DAOCocheInterfaz{
 		return modificado;
 	}
 
+	/**
+	 * Metodo que busca un coche por id
+	 * @param id asignada al coche
+	 * @return el coche con esa id
+	 * @throws NullPointerException si la id no existe
+	 */
 	@Override
 	public Coche buscarCocheId(int id) {
 		if(!abrirConexion()){

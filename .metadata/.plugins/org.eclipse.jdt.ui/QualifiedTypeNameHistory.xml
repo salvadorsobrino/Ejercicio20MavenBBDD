@@ -31,4 +31,9 @@
     <fullyQualifiedTypeName name="org.apache.pdfbox.pdmodel.PDPage"/>
     <fullyQualifiedTypeName name="org.apache.pdfbox.pdmodel.PDPageContentStream"/>
     <fullyQualifiedTypeName name="org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="modelo.entidades.Coche"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+    <fullyQualifiedTypeName name="modelo.persistencia.interfaces.DAOCocheInterfaz"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 </qualifiedTypeNameHistroy>

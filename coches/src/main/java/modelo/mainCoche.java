@@ -8,7 +8,6 @@ import java.io.OutputStream;
 import java.util.List;
 import java.util.Scanner;
 
-import org.apache.commons.io.output.ByteArrayOutputStream;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.PDPageContentStream;

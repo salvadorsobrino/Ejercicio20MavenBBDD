@@ -1,0 +1,45 @@
+package coches;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import org.junit.jupiter.api.Test;
+
+import modelo.entidades.Coche;
+import modelo.persistencia.CocheDAOmySQL;
+import modelo.persistencia.interfaces.DAOCocheInterfaz;
+
+/*Quiero que probéis mediante JUNIT un método de vuestros.(obtener coche por id del DAO)
+ * Quiero que generéis un ejecutable del proyecto mediante maven y que se pasen tambien las pruebas 
+unitarias*/
+
+public class CocheDAOmySQLTest {
+	
+	DAOCocheInterfaz daoCocheI = new CocheDAOmySQL();
+
+	
+	@Test
+	void buscarCocheIdExistente(){
+		
+		int idEsperado = 2;
+		
+		
+		
+		int idObtenido = daoCocheI.buscarCocheId(2).getId();
+		
+		assertEquals(idEsperado, idObtenido);
+
+	}
+	@Test
+	void buscarCocheIdNoExistente(){
+		DAOCocheInterfaz daoCocheI = new CocheDAOmySQL();
+		assertThrows(
+				NullPointerException.class, 
+				() -> {
+					int idObtenido = daoCocheI.buscarCocheId(1110).getId();
+				}
+				
+		);
+
+	}
+}
